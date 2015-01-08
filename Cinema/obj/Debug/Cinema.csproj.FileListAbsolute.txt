@@ -1,0 +1,15 @@
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\bin\Debug\Cinema.exe.config
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\bin\Debug\Cinema.exe
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\bin\Debug\Cinema.pdb
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.adauga_filme.resources
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.cinema.resources
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.modif_filme.resources
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.modif_sala.resources
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.Properties.Resources.resources
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.rezervari.resources
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.sali_cinema.resources
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.csproj.GenerateResource.Cache
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.exe
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.pdb
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.csprojResolveAssemblyReference.cache
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.cauta.resources
