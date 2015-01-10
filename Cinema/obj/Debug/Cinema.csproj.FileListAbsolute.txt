@@ -13,3 +13,4 @@ C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Ci
 C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.pdb
 C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.csprojResolveAssemblyReference.cache
 C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.cauta.resources
+C:\Users\Cosmin\documents\visual studio 2013\Projects\Cinema\Cinema\obj\Debug\Cinema.programFilme.resources

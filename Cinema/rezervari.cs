@@ -25,7 +25,7 @@ namespace Cinema
             {
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("select * from rezervari_bilete");
+                    SqlCommand cmd = new SqlCommand(/*"select * from rezervari_bilete"*/ "select  Nume , Prenume from clienti c inner join rezervari_bilete rb  on c.id = rb.[[ID Client] ");
                     cmd.CommandType = CommandType.Text;
                     cmd.Connection = connection;
                     connection.Open();

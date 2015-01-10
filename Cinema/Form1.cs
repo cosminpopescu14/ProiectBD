@@ -87,6 +87,21 @@ namespace Cinema
             c.Show();
         }
 
-        
+        private void licentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Open Source !");
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Aplicatie scrisa in C# cu interfata Windows Forms\n si baza de date proiectata in MSSQL 2012 Standrad Edition");
+        }
+
+        private void progrm_filme_Click(object sender, EventArgs e)
+        {
+            programFilme pf = new programFilme();
+            pf.Show();
+        }
+  
     }
 }

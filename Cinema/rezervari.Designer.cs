@@ -47,7 +47,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1030, 384);
+            this.ClientSize = new System.Drawing.Size(710, 384);
             this.Controls.Add(this.dataGridView1);
             this.Name = "rezervari";
             this.Text = "rezervari";

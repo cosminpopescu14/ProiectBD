@@ -27,12 +27,13 @@ namespace Cinema
             {
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("select Nume, Gen, Actori, An from filme where Nume like " + textBox1.Text);//comanda sql  pt cautare in tabela film. sablonul este preluat din textbox1. nu este scrisa corect
+                    SqlCommand cmd = new SqlCommand("select Nume, Gen, Actori, An from filme where Nume like '%' + @Nume + '%'" );//comanda sql  pt cautare in tabela film. sablonul este preluat din textbox1.
+                    cmd.Parameters.AddWithValue("@Nume", textBox1.Text);
                     cmd.CommandType = CommandType.Text;
                     cmd.Connection = connection;
                     connection.Open();
                     SqlDataReader reader = cmd.ExecuteReader();//incep executia comenzii de citire a datelor din baza
-                    while(reader.Read())//citesc dim baza de date si afisez in listbox1
+                    while(reader.Read())//citesc din baza de date si afisez in listview
                     {
                         ListViewItem item = new ListViewItem(reader["Nume"].ToString());
                         item.SubItems.Add(reader["Gen"].ToString());

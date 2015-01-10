@@ -30,7 +30,7 @@ namespace Cinema
                         if (data_row.Selected == true)
                         {
                             dataGridView1.Rows.RemoveAt(i);
-                            SqlCommand cmd = new SqlCommand("DELETE FROM sala_cinema WHERE ID =@ID");
+                            SqlCommand cmd = new SqlCommand("DELETE FROM sala_cinema WHERE ID = @ID");
                             cmd.CommandType = CommandType.Text;
                             cmd.Connection = connection;
                             cmd.Parameters.Add("@ID", dataGridView1.Rows[0].Cells[0].Value.ToString());

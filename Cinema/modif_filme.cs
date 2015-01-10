@@ -90,7 +90,7 @@ namespace Cinema
           e.Cancel = false;
       }
 
-        private void delete_film_Click(object sender, EventArgs e)//stergere inregistrare din baza de date
+        private void delete_film_Click(object sender, EventArgs e)//stergere inregistrare din baza de date. in bd, pe tabela se afla constrangerea delete set cascade. dca sterg inregistrarea, o vreu stersa si in alte tabele in care apare; program_filme si rezervari_bilete. a se folosi cu grija
         {
             using (SqlConnection connection = new SqlConnection(this.dbConnection.connectrionString()))
             {
