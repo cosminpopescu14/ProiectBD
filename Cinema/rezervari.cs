@@ -25,7 +25,7 @@ namespace Cinema
             {
                 try
                 {
-                    SqlCommand cmd = new SqlCommand(/*"select * from rezervari_bilete"*/ "select  Nume , Prenume from clienti c inner join rezervari_bilete rb  on c.id = rb.[[ID Client] ");
+                    SqlCommand cmd = new SqlCommand("select c.Nume , c.Prenume , f.Nume, sc.nume from clienti c, rezervari_bilete rb, filme f, sala_cinema sc where rb.[[ID Client] = c.id and rb.[ID Film] = f.ID and rb.[ID Sala] = sc.id");
                     cmd.CommandType = CommandType.Text;
                     cmd.Connection = connection;
                     connection.Open();
@@ -46,6 +46,11 @@ namespace Cinema
                     connection.Close();
                 }
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ;
         }
     }
 }

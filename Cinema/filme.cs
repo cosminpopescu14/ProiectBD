@@ -13,7 +13,7 @@ namespace Cinema
 {
     public partial class adauga_filme : Form
     {
-        private db dbConnection = new db(); // se  poate initializa din orice clasa. contine  clasa in care se afla metoda de conectre la baza de date
+        private db dbConnection = new db(); // se  poate initializa din orice clasa. db.cs  clasa in care se afla metoda de conectre la baza de date
 
         public adauga_filme()
         {
@@ -29,7 +29,7 @@ namespace Cinema
         {
             using (SqlConnection connection = new SqlConnection(this.dbConnection.connectrionString()))//am instrdus blocul de sql intr-un if-else pt a nu executa cererea daca campul id_film este gol
             {
-                if (textBox1.Text.Trim().Length == 0)
+                if (textBox1.Text.Trim().Length == 0 && nume_film.Text.Trim().Length == 0 && gen.Text.Trim().Length == 0 && actori.Text.Trim().Length == 0 && an.Text.Trim().Length == 0 && pret_bilet.Text.Trim().Length == 0)
                 {
                     MessageBox.Show("Nu ati completat id-ul filmului");
                 }

@@ -42,7 +42,6 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.show_reservation = new System.Windows.Forms.Button();
             this.progrm_filme = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -140,7 +139,7 @@
             // 
             this.show_reservation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.show_reservation.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.show_reservation.Location = new System.Drawing.Point(157, 103);
+            this.show_reservation.Location = new System.Drawing.Point(98, 183);
             this.show_reservation.Name = "show_reservation";
             this.show_reservation.Size = new System.Drawing.Size(115, 74);
             this.show_reservation.TabIndex = 2;
@@ -151,23 +150,13 @@
             // progrm_filme
             // 
             this.progrm_filme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.progrm_filme.Location = new System.Drawing.Point(157, 253);
+            this.progrm_filme.Location = new System.Drawing.Point(638, 183);
             this.progrm_filme.Name = "progrm_filme";
             this.progrm_filme.Size = new System.Drawing.Size(115, 74);
             this.progrm_filme.TabIndex = 3;
             this.progrm_filme.Text = "Programul filmelor";
             this.progrm_filme.UseVisualStyleBackColor = false;
             this.progrm_filme.Click += new System.EventHandler(this.progrm_filme_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(481, 64);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 74);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // cinema
             // 
@@ -176,7 +165,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(813, 571);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.progrm_filme);
             this.Controls.Add(this.show_reservation);
             this.Controls.Add(this.menuStrip1);
@@ -207,7 +195,6 @@
         private System.Windows.Forms.ToolStripMenuItem licentaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Button progrm_filme;
-        private System.Windows.Forms.Button button1;
     }
 }
 
